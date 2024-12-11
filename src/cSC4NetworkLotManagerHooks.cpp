@@ -36,7 +36,7 @@ namespace
 		if ((networkTypeFlags & NetworkTypeFlagRail) != 0)
 		{
 			// The rail network always uses either the dirt or none base texture.
-			// By default, we use empty. But provide the option to always use dirt.
+			// By default, we use none. But provide the option to always use dirt.
 			if (spPreferences->AlwaysUseDirtBaseTextureForRail())
 			{
 				baseTextureID = kDirtBaseTextureID;
